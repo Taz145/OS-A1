@@ -1,0 +1,23 @@
+Assignment 1 for CIS 3110
+Charles Stewart
+0877631
+Monday, January 30, 2017
+
+Algorithm:
+    The program will loop waiting for input from the user. Upon getting input it will check the string against any 
+    known built in commands, and if one is found it will be executed. If not it will be passed to a function on the 
+    assumption that it is a system command and willl tried to be executed there.
+
+Assumptions:
+    I am assuming that if the user is redirecting file input or output they will actually name a file following the
+    chevron on the command line.
+
+How to Run:
+    Make sure that make is installed on the system.
+    Navigate to the directory and type Make.
+    Ignore the warnings that appear on screen.
+    Type ./msh on the command line to run the shell
+    Typing exit will quit, args will print the number of arguments and what they are
+    add will add any number of numbers together and print the result to the screen
+    cd changes the current working directory provided the destination exits
+    tictac will start a game of tictactoe on the screen. The game is designed to be played by 2 people
